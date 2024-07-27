@@ -1,0 +1,94 @@
+           <Row className="mb-3 inputRow">
+              <Col sm={6} md={6} lg={6} className="inpuCol d-flex flex-column">
+                <Field
+                  className="input"
+                  name="location"
+                  placeholder="City"
+                  type="text"
+
+                />
+                <span className='errors'>
+                <ErrorMessage
+                  name="location"
+                 
+                />
+                </span>
+              </Col>
+              <Col sm={6} md={6} lg={6} className="inpuCol d-flex flex-column">
+                <Field
+                  type="select"
+                  name="location"
+                  placeholder="country"
+                  className="input"
+                />
+
+                <span className='errors'>
+                <ErrorMessage
+                  name="location"
+                />
+                </span>
+              </Col>
+            </Row>
+            <Row className="mb-3 inputRow">
+              <Col sm={6} md={6} lg={6} className="inpuCol d-flex flex-column">
+                <Field
+                  className="input"
+                  name="location"
+                  placeholder="Address1"
+                  type="text"
+
+                />
+                <span className='errors'>
+                <ErrorMessage
+                  name="location"
+                 
+                />
+                </span>
+              </Col>
+              <Col sm={6} md={6} lg={6} className="inpuCol d-flex flex-column">
+                <Field
+                  type="text"
+                  name="location"
+                  placeholder="Pin Code"
+                  className="input"
+                />
+
+                <span className='errors'>
+                <ErrorMessage
+                  name="pincode"
+                />
+                </span>
+              </Col>
+            </Row>
+            <Row className="mb-3 inputRow">
+              <Col sm={6} md={6} lg={6} className="inpuCol d-flex flex-column">
+                <Field
+                  className="input"
+                  name="password"
+                  placeholder="Password"
+                  type="password"
+
+                />
+                <span className='errors'>
+                <ErrorMessage
+                  name="password"
+                 
+                />
+                </span>
+              </Col> 
+              <Col sm={6} md={6} lg={6} className="inpuCol d-flex flex-column">
+                <Field
+                  className="input"
+                  name="confirmpassword"
+                  placeholder="Confirm Password"
+                  type="password"
+
+                />
+                <span className='errors'>
+                <ErrorMessage
+                  name="confirmpassword"
+                 
+                />
+                </span>
+              </Col>
+            </Row>

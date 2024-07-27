@@ -1,0 +1,148 @@
+body {
+  background-color:#92C4A7
+}
+.outer-div {
+  display:grid;
+  place-items: center;
+  margin-top:100px;
+  
+}
+.primary-div{
+  background-image: url("./asstets/pattern.jpg");
+  height:35vh;
+  width: 600px;
+  min-height:700px;
+  box-shadow:20px -16px 10px #76a98c;
+  position:relative
+}
+.secondary-div {
+  margin-top:10px;
+  background-color: #F0E7D5;
+  height:30vh;
+  min-height:600px;
+  width: 600px;
+  position: absolute;
+  box-shadow:30px teal;
+}
+
+h1{
+  margin-top:40px;
+  color: #163146;
+  text-align: center;
+  letter-spacing:1dvb;
+  font-family:ArialBlack ,fantasy;
+ 
+}
+.p {
+  color:#76a98c;
+  margin-left:180px
+}
+.row {
+   color:blanchedalmond
+}
+.button {
+ margin-left:57vh;
+ margin-top:5vh;
+ width:20px;
+ color:#E07A4B;
+ background-color: #163146;
+}
+.buttonLeft{
+  margin-left:5vh;
+ margin-top:5vh;
+ width:20px;
+ color:#E07A4B;
+ background-color: #163146;
+}
+.fontawesomeLeft :hover{
+  margin-left:-1vh
+}
+.fontawesome{
+  height:3vh;
+  
+}
+.fontawesomeLeft{
+  height:3vh;
+  margin-left:-3vh;
+}
+.inputRow{
+  margin-left:10px;
+  margin-right:12px;
+  padding-top:5vh !important;
+}
+.input{
+  border:0;
+  border-bottom: 2px solid #92C4A7;
+  background:#F0E7D5;
+  color: rgb(116, 115, 115);
+  padding-left:20px;
+}
+.input:hover{
+cursor:pointer;
+  background:transparent;
+}
+.LoginButton{
+  font-weight:50px;
+  font-size:20px;
+  height:50px;
+  width:150px;
+  text-align:center;
+  cursor:pointer;
+  left:50%;
+  position:absolute;
+  bottom:40px;
+  transform:translateX(-50%);
+  background-color: #163146;
+}
+.errors{
+  color:#E07A4B;
+  font-size:medium;
+}
+.addLocation{
+   width:8vh;
+   height:4vh;
+   text-align:center;
+   margin-left:31vh;
+   margin-top:10px;
+   border-width: 0px;
+   border-radius:5px;
+   color:white;
+   background-color:#E07A4B;
+}
+.checkbox{
+  color:#E07A4B
+}
+@media only screen and (max-width: 768px) {
+  /* Tablet styles */
+  .outer-div {
+    margin-top: 20px;
+  }
+
+  .primary-div,
+  .secondary-div {
+    width: 80vw;
+  }
+
+  .LoginButton {
+    /* margin-left:250px;  */
+    position:absolute;
+    top:530px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Mobile styles */
+  .outer-div {
+    margin-top: 10px;
+  }
+
+  .primary-div,
+  .secondary-div {
+    width: 90vw;
+  }
+
+  .LoginButton {
+    margin-left:230px;
+    position:absolute;
+  }
+}

@@ -1,0 +1,44 @@
+
+.swal2-popup {
+    font-family: 'Arial', sans-serif; 
+    background-color: white;
+    color: #163146;
+    border-radius: 10px;
+  }
+  
+  .swal2-title {
+    color: #E07A4B;
+  }
+  
+  .swal2-content {
+    color: #163146; 
+  }
+  
+  .swal2-icon {
+    color: #E07A4B;
+  }
+  
+  .swal2-styled .swal2-confirm {
+    background-color: #163146; 
+    color: #76a98c; 
+    border: 2px solid #163146; 
+  }
+  .swal2-styled .swal2-cancel {
+    background-color: #163146; 
+    color: #76a98c;
+    border: 2px solid #163146; 
+  }
+  
+  
+  .swal2-styled:hover:not([disabled]) .swal2-confirm {
+    background-color: #163146; 
+    color: #76a98c;
+  }
+  
+  .swal2-styled:hover:not([disabled]) .swal2-cancel {
+    background-color: #163146;
+    color: #76a98c; 
+  }
+  
+
+  
